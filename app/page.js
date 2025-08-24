@@ -225,7 +225,7 @@ export default function Home() {
       <footer className="bg-gradient-to-r from-gray-900 via-blue-900 to-black py-8 border-t border-blue-500/30">
         <div className="container mx-auto px-4">
           <p className="text-center text-blue-200 text-lg font-medium">
-            Made with <span className="text-red-400 animate-pulse">❤️</span> by{&apos; &apos;}
+            Made with <span className="text-red-400 animate-pulse">❤️</span> by{' '}
             <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent font-bold">
               Raj Aryan Dixit
             </span>
