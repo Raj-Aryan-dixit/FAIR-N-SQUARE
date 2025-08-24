@@ -57,7 +57,7 @@ export default function Dashboard() {
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
                   Dashboard
                 </h1>
-                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Welcome back! Here's your financial overview.</p>
+                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Welcome back! Here&apos;s your financial overview.</p>
               </div>
               <Button asChild className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <Link href="/expenses/new">
@@ -141,7 +141,7 @@ export default function Dashboard() {
                     <>
                       <div className="text-2xl sm:text-3xl font-bold text-slate-600 mb-1 sm:mb-2">$0.00</div>
                       <p className="text-xs sm:text-sm text-muted-foreground font-medium">
-                        🎉 You don't owe anyone
+                        🎉 You don&apos;t owe anyone
                       </p>
                     </>
                   )}

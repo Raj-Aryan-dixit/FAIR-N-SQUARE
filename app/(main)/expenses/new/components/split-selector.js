@@ -80,10 +80,8 @@ export function SplitSelector({
     setTotalPercentage(newTotalPercentage);
 
     // Notify parent about the split changes
-    if (onSplitsChange) {
-      onSplitsChange(newSplits);
-    }
-  }, [type, amount, participants, paidByUserId]);
+    onSplitsChange(newSplits);
+  }, [type, amount, participants, paidByUserId, onSplitsChange]);
 
   // Update the percentage splits - no automatic adjustment of other values
   const updatePercentageSplit = (userId, newPercentage) => {
