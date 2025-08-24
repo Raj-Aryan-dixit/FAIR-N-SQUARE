@@ -15,6 +15,7 @@ export default function Home() {
       <div className="fixed inset-0 -z-10" style={{ willChange: "transform" }}>
         <Silk color="#582EFF" speed={3} scale={1} noiseIntensity={0.8} />
       </div>
+      <div className="opacity-0 animate-[fadeIn_0.5s_ease-in-out_1s_forwards]">
       <section className="mt-10 pb-10 space-y-10 md:space-y-20 ">
         <div className="container mx-auto px-4 md:px-8 text-center space-y-6">
           <Badge
@@ -231,6 +232,7 @@ export default function Home() {
           </p>
         </div>
       </footer>
+      </div>
     </div>
   );
 }
